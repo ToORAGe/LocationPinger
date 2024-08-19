@@ -14,7 +14,7 @@ def get_current_location():
         return None, None
 
 def send_location_to_server(latitude, longitude):
-    url = "https://better-ducks-float.loca.lt/location" #"http://127.0.0.1:5000/location"
+    url = "https://warm-memes-obey.loca.lt/location" #"http://127.0.0.1:5000/location"
     data = {"latitude": latitude, "longitude": longitude}
     try:
         response = requests.post(url, json=data)
